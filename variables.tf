@@ -11,16 +11,13 @@ variable "region" {
 variable "prefix" {
   type        = string
   description = "(Optional) Prefix to use for all resources in this module. Default: globo-dev"
+  default     = "globo-dev"
 }
 
 variable "environment" {
   type        = string
   description = "(optional) environment of all resources"
-}
-
-variable "billing_code" {
-  type        = string
-  description = "(Required) Billing code for network resources."
+  default     = "development"
 }
 
 variable "cidr_block" {
