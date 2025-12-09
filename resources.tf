@@ -63,4 +63,3 @@ resource "aws_security_group" "ingress" {
   tags_all               = {}
   vpc_id                 = module.main.vpc_id
 }
-
