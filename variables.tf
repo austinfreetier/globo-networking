@@ -33,7 +33,3 @@ variable "public_subnets" {
   description = "(Optional) Map of public subnets to create with CIDR blocks. Key will be used as subnet name with prefix. Default: {subnet-1 ="
 }
 
-variable "billing_code" {
-  type        = string
-  description = "(Optional) billing code for the project"
-}
